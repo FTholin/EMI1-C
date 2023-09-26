@@ -1,52 +1,48 @@
-# Prerequisites
-*.d
-
-# Object files
+# Fichiers compilés
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
+*.out
+*.exe
 *.dll
 *.so
-*.so.*
+*.a
+*.swo
+*.swp
 *.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Executable
+a.out
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Fichiers générés par des outils
+*.log
+*.core
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Environnement de développement
+*.user
+*.vscode/
+*.idea/
+*.cproject
+*.settings/
+*.project
+
+# Fichiers macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icônes
+Icon
+._*
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*~
+
+
+
+# Dossiers spécifiques à macOS
+__MACOSX/
+
