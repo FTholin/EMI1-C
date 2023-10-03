@@ -151,20 +151,15 @@ Utilisez de nouveau [scanf](http://ressources.unit.eu/cours/Cfacile/co/ch4_p5_6.
   char maison_choisie[100];
   ```
 
-18. Afin d'utiliser la fonction [strcpy](https://www.programiz.com/c-programming/library-function/string.h/strcpy), nous allons importer la librairie `string.h`.
-
 18. Créez la logique finale pour trouver la maison ayant le nombre maximum:
-  - Si `gryffondor > max` alors `max = gryffondor` puis ajouter la ligne `strcpy(maison_choisie, "Gryffondor");`.
+  - Si `gryffondor > max` alors `max = gryffondor` puis affichez `Maison choisie Gryffondor`.
 
-  - Si `poufsouffle > max` alors `max = poufsouffle` puis ajouter la ligne `strcpy(maison_choisie, "Poufsouffle");`.
+  - Si `poufsouffle > max` alors `max = poufsouffle` puis affichez  `Maison choisie Poufsouffle`.
 
-  - Si `serdaigle > max` alors `max = serdaigle` puis ajouter la ligne `strcpy(maison_choisie, "Serdaigle");`.
+  - Si `serdaigle > max` alors `max = serdaigle` puis affichez  `Maison choisie Serdaigle`.
 
-  - Si `serpentard > max` alors `max = serpentard` puis ajouter la ligne `strcpy(maison_choisie, "Serpentard");`.
+  - Si `serpentard > max` alors `max = serpentard` puis affichez  `Maison choisie Serpentard`
 
-> L'utilisation de la fonction strcpy sera expliqué plus en détail dans une prochaine leçon.
-
-19. Affichez au jeune sorcier la maison dans laquelle il a été choisi.
 
 
 19. `Enregistrez`, `compilez` puis `exécutez` le programme en utilisant le terminal pour s'assurez qu'il n'a pas de bugs 🐛.
