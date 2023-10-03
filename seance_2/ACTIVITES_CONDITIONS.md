@@ -35,7 +35,7 @@ Si la condition est égale à `true` (🇫🇷 vrai), les instructions qu'elle c
 
 ```cpp
 if (montant_compte == 0) {
-  std::cout << "J'ai plus un radis 😭😭\n"
+  printf("J'ai plus un radis 😭😭\n");
 }
 ```
 
@@ -796,22 +796,22 @@ Par exemple :
 
   Si le jour de la semaine est égal à 6 ou le jour est égal à 7, alors on affiche sur la console "C'est le Week-End !!".
 
-    <details>
-    <summary>J'ai besoin d'aide ! 😱</summary>
-    <p>
+  <details>
+  <summary>J'ai besoin d'aide ! 😱</summary>
+  <p>
 
-    Le signe `ou` de C est écrit avec `||` ou le mot clé `or`.
+  Le signe `ou` de C est écrit avec `||` ou le mot clé `or`.
 
-    ```cpp
-    if (jour_semaine == 6 || jour_semaine == 7) {
+  ```cpp
+  if (jour_semaine == 6 || jour_semaine == 7) {
 
-      printf("C'est le Week-End !!\n");
+    printf("C'est le Week-End !!\n");
 
-    }
-    ```
+  }
+  ```
 
-    </p>
-    </details>
+  </p>
+  </details>
 
 
 6. Compilez et exécutez le code pour vous assurer qu'il n'y a pas de bug !
