@@ -41,7 +41,7 @@ if (montant_compte == 0) {
 
 Le mot-clé `if` est suivi d'un ensemble de parenthèses `()`.
 
-À l'intérieur des parenthèses `()`, une condition est fournie et évaluée à `true` ou `false` :
+À l'intérieur des parenthèses `()`, une condition est fournie et évaluée à Vrai  ou Fausse :
 
 Si la condition est vraie, le code à l'intérieur des accolades `{}` est exécuté.
 Si la condition vaut faux, le code ne s'exécute pas.
@@ -179,9 +179,9 @@ if (condition) {
 }
 ```
 
-- Si la condition est `true` (vraie), l'instruction 1 est exécutée. Ensuite, le programme ignore l'instruction 2 et exécute toutes les instructions de code qui suivent la clause if/else.
+- Si la condition est (vraie), l'instruction 1 est exécutée. Ensuite, le programme ignore l'instruction 2 et exécute toutes les instructions de code qui suivent la clause if/else.
 
-- Si la condition est `false` (fausse), l'instruction 1 est ignorée et l'instruction 2 est exécutée. Une fois l'instruction 2 terminée, le programme exécute toutes les instructions de code qui suivent la clause if/else.
+- Si la condition est (fausse), l'instruction 1 est ignorée et l'instruction 2 est exécutée. Une fois l'instruction 2 terminée, le programme exécute toutes les instructions de code qui suivent la clause if/else.
 
 ```cpp
 if (cote_piece == 0) {
@@ -833,9 +833,9 @@ Voici sa table de vérité :
 
 Par exemple :
 
-( `!true` ) renvoie `false`
-( `!false` ) renvoie à `true`
-( `!(10 < 11)` ) renvoie `false`
+( `!1` ) renvoie 0
+( `!0` ) renvoie à  1
+( `!(10 < 11)` ) renvoie 0
 
 
 ## A vous de jouer ! 🧩 🎮
@@ -872,14 +872,14 @@ Par exemple :
   </details>
 
 
-4. Déclarez et initialisez 1 variables entières `mot_de_passe_saisi` à `false`.
+4. Déclarez et initialisez 1 variables entières `mot_de_passe_saisi` à 0.
 
   <details>
   <summary>J'ai besoin d'aide ! 😱</summary>
   <p>
 
   ```cpp
-  bool mot_de_passe_saisi = false;
+  bool mot_de_passe_saisi = 0;
   ```
 
   </p>
