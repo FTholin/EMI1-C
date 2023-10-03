@@ -681,14 +681,14 @@ Par exemple :
   </details>
 
 
-4. Déclarez et initialisez 2 variables entières `bien_bu`, `bien_mange` à `true`.
+4. Déclarez et initialisez 2 variables entières `bien_bu`, `bien_mange` à 0.
 
   <details>
   <summary>J'ai besoin d'aide ! 😱</summary>
   <p>
 
   ```cpp
-  bool bien_bu, bien_mange = true;
+  int bien_bu, bien_mange = 0;
   ```
 
   </p>
@@ -706,7 +706,7 @@ Par exemple :
   Le signe `et` en C est écrit avec `&&`.
 
   ```cpp
-  if (bien_bu == true && bien_mange == true) {
+  if (bien_bu == 1 && bien_mange == 1) {
 
     printf("J'ai la peau du ventre bien tendu\n");
 
