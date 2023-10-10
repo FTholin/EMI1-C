@@ -204,8 +204,8 @@ Vous verrez s'afficher "Coucou !" à **"l'infini"** sur la console.
 4. Ajoutez une boucle `while` avec pour condition de continuité que la variable `email` soit positive.
 
 5. A l'intérieur du corps de la boucle, réalisez les opérations suivantes:
-  - enlevez 1 à email
   - affichez **"un email supprimé, il reste `nb emails restant` emails"** ;
+  - enlevez 1 à email
 
   <details>
   <summary>J'ai besoin d'aide ! 😱</summary>
